@@ -1,0 +1,50 @@
+*,html{
+        margin:0;
+        padding:0;
+    }
+body{
+    background-color:lightcyan;
+    font-family:Arial;
+}
+header{
+    background-image:linear-gradient(to bottom, navy,lightblue);
+    color:white;
+    text-align:center;
+    padding:1em;
+}
+main{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+}
+main>*{
+    padding:2em;
+}
+aside{
+    background-color:white;
+    height:max-content;
+}
+nav ul{
+    margin-top:1em;
+    display:none;
+    list-style-type: none;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+nav:hover ul{
+    display:flex;
+}
+nav ul a{
+    text-decoration:none;
+    color:white;
+    padding:1em;
+    font-size:1.5em;
+    transition:all 0.5s ease;
+}
+nav ul a:hover{
+    color:rgb(255, 85, 85);
+}
+section img{
+    width:50em;
+    height:auto;
+}

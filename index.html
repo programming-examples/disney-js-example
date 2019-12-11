@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disney</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Welcome to Disney&copy; site bois</h1>
+        <nav><h2>Show links</h2>
+            <ul>
+                <li><a href="https://disney.co.uk/">Disney</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Disney2</a></li>
+                <li><a href="https://www.youtube.com/watch?v=ZZ5LpwO-An4">Disney3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <aside>
+        <audio controls src="pl.mp3"></audio>
+        <h2>How epic is Disney&copy;?</h2>
+            <input type="range" min="0" max="100" value="50" id="slider" onchange="disneyFanbois()"/>
+            <!-- <button onClick="disneyFanbois()">Enter</button> -->
+            <h3 id="counter">50%</h3>
+            <span id="resp"></span>
+    </aside>
+    <section>
+        <h2>Find out about a random Disney&copy; character, or select your own</h2>
+        <input id="search" name="search" placeholder="Character name"/>
+        <button onClick="search()">Search</button>
+        <button onClick="epicFunction()">Random</button>
+        <section id="characterDesc"></section>
+    </section>
+</main>
+    <script src="script.js"></script>
+</body>
+</html>
