@@ -13,10 +13,14 @@ var changedImgs = [
 ];
 
 var disneyChars = [
-    `<h3>Pocahontas</h3><p>Holy shit some shit about Pocahontas</p><img onmouseover='imgChange(0)' onmouseout='imgChangeBack(0)' id='img' src='${imgs[0]}'/>`,
-    `<h3>Elsa</h3><p>Holy shit Elsa</p><img onmouseover='imgChange(1)' onmouseout='imgChangeBack(1)' id='img' src='${imgs[1]}'/>`,
-    `<h3>Shrek</h3><p>Holy shit Shrek</p><ul><li>Shrek wa numba wan</li><li>Shrek ga daisuki</li></ul><img onmouseover='imgChange(2)' onmouseout='imgChangeBack(2)' id='img' src='${imgs[2]}'/>`,
-    `<h3>Rapunzel</h3><p>Holy shit Rapunzel</p><img onmouseover='imgChange(3)' onmouseout='imgChangeBack(3)' id='img' src='${imgs[3]}'/>`
+    `<div id="wrapper">
+        <h3>Pocahontas</h3>
+        <p>Holy shit some shit about Pocahontas</p>
+    </div>
+    <img onmouseover='imgChange(0)' onmouseout='imgChangeBack(0)' id='img' src='${imgs[0]}'/>`,
+    `<div id="wrapper"><h3>Elsa</h3><p>Holy shit Elsa</p></div><img onmouseover='imgChange(1)' onmouseout='imgChangeBack(1)' id='img' src='${imgs[1]}'/>`,
+    `<div id="wrapper"><h3>Shrek</h3><p>Holy shit Shrek</p><ul><li>Shrek wa numba wan</li><li>Shrek ga daisuki</li></ul></div><img onmouseover='imgChange(2)' onmouseout='imgChangeBack(2)' id='img' src='${imgs[2]}'/>`,
+    `<div id="wrapper"><h3>Rapunzel</h3><p>Holy shit Rapunzel</p></div><img onmouseover='imgChange(3)' onmouseout='imgChangeBack(3)' id='img' src='${imgs[3]}'/>`
 ];
 
 var charCounter;

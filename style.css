@@ -44,7 +44,27 @@ nav ul a{
 nav ul a:hover{
     color:rgb(255, 85, 85);
 }
-section img{
+/* section img{
     width:50em;
+} */
+#characterDesc{
+    border:0.1em solid black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#characterDesc h3{
+    margin-left:2em;
+    margin-bottom: 1em;
+}
+#characterDesc div *{
+    display:block;
+    margin-left:2em;
+}
+#characterDesc img{
     height:auto;
+    max-width:25%;
+}
+section{
+    width:100%;
 }
